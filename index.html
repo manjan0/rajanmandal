@@ -11,40 +11,28 @@
             background-color: #121212;
             color: #fff;
             margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            overflow: hidden;
+            padding: 20px;
+            text-align: center;
         }
         .container {
             max-width: 450px;
+            margin: auto;
             padding: 30px;
             background: linear-gradient(135deg, #1e1e1e, #292929);
             border-radius: 15px;
-            text-align: center;
             box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
-            transform: scale(0.9);
-            animation: fadeIn 1.2s ease-out forwards;
         }
         .profile-image {
             width: 100%;
             max-height: 500px;
             object-fit: cover;
             border-radius: 10px;
-            transition: 0.3s;
-        }
-        .profile-image:hover {
-            transform: scale(1.05);
         }
         .description {
             margin-top: 20px;
             font-size: 18px;
             font-weight: 300;
             line-height: 1.6;
-            opacity: 0;
-            animation: slideUp 1s ease-out 0.5s forwards;
         }
         .button {
             margin-top: 20px;
@@ -56,25 +44,9 @@
             font-size: 16px;
             font-weight: 600;
             cursor: pointer;
-            transition: 0.3s;
-            box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
-            transform: scale(0.8);
-            animation: popUp 0.7s ease-out 0.8s forwards;
         }
         .button:hover {
             background: #ff4500;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: scale(0.8); }
-            to { opacity: 1; transform: scale(1); }
-        }
-        @keyframes slideUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes popUp {
-            from { transform: scale(0.8); opacity: 0; }
-            to { transform: scale(1); opacity: 1; }
         }
     </style>
 </head>
@@ -83,20 +55,20 @@
         <img src="IMG_20250126_135331573.jpg" alt="Manjan's Image" class="profile-image">
         <h2 style="color: #ff6600;">Manjan - The Visionary</h2>
         <p class="description">
-            🚀 Dreamer. Computer enthusiast.  <br>
-            <br>
-            <p> <div>welcome to the Kingdom of Manjan – Population: Just Me. 👑</div>
-<br>
-              <b>Who am I?</b> <br> 
-             <div> Oh, just your average overthinker with a PhD in procrastination and a black belt in accidentally making life harder than it needs to be. 😎 </div>
-                <br>
-                I specialize in pressing "Remind Me Tomorrow" on important updates, surviving on zero sleep and unlimited WiFi, and asking existential questions at 2 AM that no one has answers to. <hr>
-                
-                Some say I’m "different." I say, "Nah, just running on a unique version of software with occasional system crashes." 💀
-                
-                So, if you're looking for wisdom, inspiration, or life-changing advice—buddy, you might be in the wrong place. But if you enjoy chaotic energy, unnecessary sarcasm, and a certified nonsense expert, then congratulations… you’ve just met Manjan. 🎤</p>
+            🚀 Dreamer. Computer enthusiast.  
+            <br><br>
+            <b>Welcome to the Kingdom of Manjan – Population: Just Me. 👑</b>
+            <br><br>
+            <b>Who am I?</b> <br> 
+            Oh, just your average overthinker with a PhD in procrastination and a black belt in accidentally making life harder than it needs to be. 😎 
+            <br><br>
+            I specialize in pressing "Remind Me Tomorrow" on important updates, surviving on zero sleep and unlimited WiFi, and asking existential questions at 2 AM that no one has answers to. 
+            <hr>
+            Some say I’m "different." I say, "Nah, just running on a unique version of software with occasional system crashes." 💀
+            <br><br>
+            So, if you're looking for wisdom, inspiration, or life-changing advice—buddy, you might be in the wrong place. But if you enjoy chaotic energy, unnecessary sarcasm, and a certified nonsense expert, then congratulations… you’ve just met Manjan. 🎤
         </p>
-        <button class="button" onclick="showMessage()">Explore More</button>
+        
     </div>
 
     <script>
@@ -106,8 +78,3 @@
     </script>
 </body>
 </html>
-
-    </script>
-</body>
-</html>
-
